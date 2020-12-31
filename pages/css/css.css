@@ -3,6 +3,8 @@ body{
     background-color: #00778B;
     margin: 0;
     color: #FFFBD6;
+    background-image: url('../resx/background.png');
+    background-repeat: no-repeat;
 }
 
 /* form elements */
@@ -66,12 +68,6 @@ header{
     width: 100%;
     text-align: center;
     background-color: #053947;
-    border-bottom: 6px solid #3DF0DD;
-}
-
-header img{
-    max-height: 72px;
-    margin: 16px 0;
 }
 
 nav{
