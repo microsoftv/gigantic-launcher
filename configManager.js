@@ -7,13 +7,8 @@ class ConfigManager{
         this.defaultConfig = {
             port: 7777,
             maps: {
-                "lv_canyon": "Ghost Reef",
-                "lv_mistforge": "Sanctum Falls",
-                "lv_valley": "Siren's Strand",
-                "lv_wizardwoods": "Ember Grove",
-                "lv_skycity": "Sky City",
-                "lv_magma": "Magma",
-                "lv_grassland": "Practice Range"
+                "lv_canyon_v2": "Ghost Reef",
+                "lv_mistforge_stripped": "Sanctum Falls"
             }
         };
         this.config = Object.assign({}, this.defaultConfig);
