@@ -95,11 +95,16 @@ nav div.active{
 
 main{
     padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
 }
 
 .config-header{
     font-weight: bold;
+    
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: black;
 }
 
 /* loading overlay */
